@@ -1,0 +1,30 @@
+{
+  "0d6e1565-2c76-4803-9f82-ddc90ec9bfec": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://devmtr.sharepoint.com/sites/ListTesting": {
+        "dataSources": {
+          "Birthday Row Format View": {
+            "tableName": "98f43bc3-9110-4a47-9751-b102d10bb133"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Birthday Row Format View"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0d6e1565-2c76-4803-9f82-ddc90ec9bfec"
+  }
+}
