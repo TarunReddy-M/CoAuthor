@@ -108,7 +108,8 @@
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =464
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        X: =176
+        Y: =597
         ZIndex: =9
 
         Image1 As image:
