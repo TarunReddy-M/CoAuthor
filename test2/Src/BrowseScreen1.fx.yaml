@@ -44,7 +44,7 @@
         TabIndex: =0
         Tooltip: =If(SortDescending1, "Sort list in reverse alphabetical order", "Sort list in alphabetical order")
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - Self.Width
+        X: =342
         ZIndex: =4
 
     IconNewItem1 As icon.Add:
@@ -107,7 +107,7 @@
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Width: =Parent.Width
+        Width: =464
         Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =9
 
