@@ -27,7 +27,8 @@
         TabIndex: =0
         Tooltip: ="Refresh list"
         Width: =88
-        X: =154
+        X: =453
+        Y: =1048
         ZIndex: =3
 
     IconSortUpDown1 As icon.ArrowsUpDown:
@@ -59,7 +60,8 @@
         TabIndex: =0
         Tooltip: ="Create new item"
         Width: =88
-        X: =Parent.Width - Self.Width
+        X: =51
+        Y: =1048
         ZIndex: =5
 
     TextSearchBox1 As text:
@@ -98,7 +100,7 @@
         ZIndex: =8
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
-        Height: =675
+        Height: =476
         Items: =SortByColumns(Filter([@'Birthday Row Format View'], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
@@ -186,7 +188,7 @@
     Label1 As label:
         Height: =70
         Size: =21
-        Text: ="Teshe functionality of the co author"
+        Text: ="Testing the "
         Width: =560
         X: =20
         Y: =831
