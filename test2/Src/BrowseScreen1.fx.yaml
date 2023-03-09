@@ -158,8 +158,6 @@
             Text: =ThisItem.Email
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle1.Width
-            X: =Subtitle1.X
-            Y: =Subtitle1.Y + Subtitle1.Height + 4
             ZIndex: =4
 
         NextArrow1 As icon.ChevronRight:
