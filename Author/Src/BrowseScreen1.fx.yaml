@@ -98,7 +98,7 @@
         ZIndex: =8
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
-        Height: =Parent.Height - Self.Y
+        Height: =675
         Items: =SortByColumns(Filter([@'Birthday Row Format View'], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
@@ -182,4 +182,13 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =6
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Testing the functionality of the co authoring"
+        Width: =560
+        X: =40
+        Y: =820
+        ZIndex: =10
 

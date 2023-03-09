@@ -62,6 +62,7 @@
     "Image2": 74,
     "JobTitle_DataCard1": 30,
     "JobTitle_DataCard2": 56,
+    "Label1": 85,
     "LblAppName1": 5,
     "LblAppName2": 25,
     "LblAppName3": 49,
@@ -88,7 +89,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/09/2023 18:17:49",
+  "HeaderLastSavedDateTimeUTC": "03/09/2023 18:19:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0d6e1565-2c76-4803-9f82-ddc90ec9bfec": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/0ad9949e4efb4bb0973fcfce18a5779b\""
@@ -179,6 +180,7 @@
     "Image2": {},
     "JobTitle_DataCard1": {},
     "JobTitle_DataCard2": {},
+    "Label1": {},
     "LblAppName1": {},
     "LblAppName2": {},
     "LblAppName3": {},
@@ -265,6 +267,7 @@
     "Image2": 68,
     "JobTitle_DataCard1": 25,
     "JobTitle_DataCard2": 50,
+    "Label1": 0,
     "LblAppName1": 1,
     "LblAppName2": 20,
     "LblAppName3": 43,
